@@ -41,6 +41,6 @@ const siteConfig = {
   ],
   credits: [
     "Background: Website made by RockyTheDog",
-    "Site: customized link page"
+    "Every site visit, fund Rocky's food intake"
   ]
 };
