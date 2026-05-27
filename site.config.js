@@ -1,7 +1,7 @@
 const siteConfig = {
-  name: "your name",
-  tagline: "digital den / links / updates",
-  logoText: "YOURNAME",
+  name: "Rocky",
+  tagline: "The site to fund this dog hunger",
+  logoText: "Rocky",
   backgroundImage: "assets/background-placeholder.png",
   profileImage: "",
   accent: "#ffd166",
@@ -9,7 +9,7 @@ const siteConfig = {
     {
       label: "Instagram",
       icon: "instagram",
-      url: "https://instagram.com/yourname"
+      url: "https://instagram.com/mrrockythedog"
     },
     {
       label: "X",
