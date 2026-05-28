@@ -57,13 +57,32 @@ function applyConfig() {
 
   const contacts = document.getElementById("contacts");
   contacts.innerHTML = "";
-  siteConfig.contacts.forEach((item) => {
-    const pill = document.createElement("div");
-    pill.className = "handle";
-    pill.innerHTML = `${icon(item.icon)}<span>${item.value}</span>`;
-    pill.title = item.label;
-    contacts.append(pill);
+ siteConfig.contacts.forEach((item) => {
+  const pill = document.createElement("button");
+  pill.type = "button";
+  pill.className = "handle";
+  pill.title = `Copy ${item.label}`;
+
+  const contactIcon = item.image
+    ? `<img class="handle-icon" src="${item.image}" alt="" aria-hidden="true">`
+    : icon(item.icon);
+
+  pill.innerHTML = `${contactIcon}<span>${item.value}</span>`;
+
+  pill.addEventListener("click", async () => {
+    await navigator.clipboard.writeText(item.copyValue || item.value);
+
+    const text = pill.querySelector("span");
+    const original = text.textContent;
+    text.textContent = "Copied!";
+
+    setTimeout(() => {
+      text.textContent = original;
+    }, 1200);
   });
+
+  contacts.append(pill);
+});
 
   const credits = document.getElementById("credits");
   credits.innerHTML = "";
