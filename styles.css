@@ -258,3 +258,15 @@ svg {
     animation-iteration-count: 1 !important;
   }
 }
+.handle-icon {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  filter: invert(1);
+}
+
+.handle {
+  cursor: pointer;
+  font: inherit;
+}
