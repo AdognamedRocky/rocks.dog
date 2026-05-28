@@ -41,6 +41,6 @@ contacts: [
 ],
   credits: [
     "Background: Website made by RockyTheDog",
-    "Every site visit, fund Rocky's food intake"
+    "Every site visit, funds Rocky’s food intake"
   ]
 };
