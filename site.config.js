@@ -28,17 +28,17 @@ const siteConfig = {
     }
   ],
   contacts: [
-    {
-      label: "Discord",
-      icon: "discord",
-      value: "rockythedog"
-    },
-    {
-      label: "Telegram",
-      icon: "telegram",
-      value: "@rockythedog100"
-    }
-  ],
+  {
+    label: "Discord",
+    image: "assets/discord-logo.jpg",
+    value: "rockythedog"
+  },
+  {
+    label: "Telegram",
+    image: "assets/telegram-logo.png",
+    value: "@rockythedog100"
+  }
+],
   credits: [
     "Background: Website made by RockyTheDog",
     "Every site visit, fund Rocky's food intake"
