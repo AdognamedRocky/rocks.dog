@@ -27,10 +27,10 @@ const siteConfig = {
       url: "https://youtube.com/@rockythedog360"
     }
   ],
- contacts: [
+contacts: [
   {
     label: "Discord",
-    image: "assets/discord%20logo.jpg",
+    image: "https://pngimg.com/uploads/discord/discord_PNG23.png",
     value: "rockythedog"
   },
   {
