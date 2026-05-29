@@ -35,7 +35,7 @@ contacts: [
   },
   {
     label: "Telegram",
-    image: "assets/telegram%20logo.png",
+    image: "assets/telegram.png",
     value: "@rockythedog100"
   }
 ],
