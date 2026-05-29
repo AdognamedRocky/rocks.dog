@@ -40,7 +40,7 @@ contacts: [
   }
 ],
   credits: [
-    "Background: Website made by RockyTheDog",
+    "Website made by RockyTheDog",
     "Every site visit, funds Rocky’s food intake"
   ]
 };
