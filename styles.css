@@ -271,43 +271,24 @@ svg {
   font: inherit;
 }
 
-.paw-button {
+.credits-toggle.paw-button {
   width: auto;
   height: auto;
+  min-height: 0;
   padding: 0;
   border: 0 !important;
+  border-radius: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
   backdrop-filter: none !important;
-  display: grid;
-  place-items: center;
-  font-size: 2.4rem;
-  line-height: 1;
   color: #000 !important;
-  text-shadow: none !important;
-  animation: paw-bounce 2.4s ease-in-out infinite;
+  font-size: 2.4rem;
 }
 
-.paw-button:hover,
-.paw-button:focus-visible {
-  animation-duration: 0.7s;
-  transform: scale(1.08) rotate(-8deg);
-}
-
-@keyframes paw-bounce {
-  0%, 80%, 100% {
-    transform: translateY(0) scale(1);
-  }
-
-  85% {
-    transform: translateY(-6px) scale(1.08) rotate(-6deg);
-  }
-
-  90% {
-    transform: translateY(0) scale(1.04) rotate(6deg);
-  }
-
-  95% {
-    transform: translateY(-3px) scale(1.06) rotate(-3deg);
-  }
+.credits-toggle.paw-button:hover,
+.credits-toggle.paw-button:focus-visible {
+  transform: none !important;
+  animation: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
 }
