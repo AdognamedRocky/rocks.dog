@@ -28,9 +28,9 @@ const siteConfig = {
     }
   ],
 contacts: [
- {
+{
   label: "Discord",
-  icon: "discord",
+  image: "assets/discord-logo.png",
   value: "rockythedog"
 },
 {
