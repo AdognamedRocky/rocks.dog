@@ -1,39 +1,21 @@
-# Editable Link Page
+# Rocky
 
-This is a standalone personal link page inspired by the structure of `warzy.dog`: a full-screen background, a large identity mark, social icons, contact handles, and a credits panel.
+Rocky's official website for links, socials, and contact info.
 
-## Edit Your Info
+Live site: https://rocksishungry.com/
 
-Open `site.config.js` and change:
+## About
 
-- `name`, `tagline`, and `logoText`
-- `backgroundImage`
-- `profileImage`, if you want a centered avatar above the logo
-- `socials`
-- `contacts`
-- `credits`
-- `accent`
+This site is about RockyTheDog and all his socials. Consider checking it out and taking a look around!
 
-## Replace The Background
+## Links
 
-Put your image in `assets/`, then update:
+- Instagram: https://instagram.com/mrrockythedog
+- X: https://x.com/SmackerTheDog
+- TikTok: https://tiktok.com/@SmackerTheDog
+- YouTube: https://youtube.com/@rockythedog360
 
-```js
-backgroundImage: "assets/your-background.jpg"
-```
+## Contact
 
-You can use `.jpg`, `.png`, `.webp`, or `.gif`.
-
-## Add Or Remove Socials
-
-Each social link looks like this:
-
-```js
-{
-  label: "Instagram",
-  icon: "instagram",
-  url: "https://instagram.com/yourname"
-}
-```
-
-Available built-in icons are `instagram`, `x`, `tiktok`, `youtube`, `discord`, `telegram`, and `link`.
+- Discord: rockythedog
+- Telegram: @rockythedog100
