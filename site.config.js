@@ -16,16 +16,26 @@ const siteConfig = {
       icon: "x",
       url: "https://x.com/SmackerTheDog"
     },
-    {
-      label: "TikTok",
-      icon: "tiktok",
-      url: "https://tiktok.com/@SmackerTheDog"
-    },
-    {
-      label: "YouTube",
-      icon: "youtube",
-      url: "https://youtube.com/@rockythedog360"
-    }
+ {
+  label: "TikTok",
+  icon: "tiktok",
+  url: "https://tiktok.com/@SmackerTheDog"
+},
+{
+  label: "YouTube",
+  icon: "youtube",
+  url: "https://youtube.com/@rockythedog360"
+},
+{
+  label: "Buy Me a Coffee",
+  icon: "link",
+  url: "https://buymeacoffee.com/rockythedog"
+},
+{
+  label: "Feedback Form",
+  icon: "link",
+  url: "https://form.jotform.com/261494079562163"
+}
   ],
 contacts: [
 {
