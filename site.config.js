@@ -26,16 +26,6 @@ const siteConfig = {
   icon: "youtube",
   url: "https://youtube.com/@rockythedog360"
 },
-{
-  label: "Buy Me a Coffee",
-  icon: "link",
-  url: "https://buymeacoffee.com/rockythedog"
-},
-{
-  label: "Feedback Form",
-  icon: "link",
-  url: "https://form.jotform.com/261494079562163"
-}
   ],
 contacts: [
 {
