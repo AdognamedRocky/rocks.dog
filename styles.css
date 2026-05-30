@@ -292,3 +292,19 @@ svg {
   background: transparent !important;
   box-shadow: none !important;
 }
+.feedback-section {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 70px 18px;
+}
+
+.feedback-form {
+  width: min(92vw, 760px);
+  height: 720px;
+  border: 0;
+  border-radius: 14px;
+  background: white;
+}
