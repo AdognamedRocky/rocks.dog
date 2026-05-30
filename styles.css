@@ -291,14 +291,15 @@ svg {
   animation: none !important;
   background: transparent !important;
   box-shadow: none !important;
-}
-.feedback-section {
+
+  .feedback-section {
   position: relative;
   z-index: 2;
   min-height: 100vh;
   display: grid;
   place-items: center;
-  padding: 70px 18px;
+  padding: 120px 18px 70px;
+  margin-top: 35vh;
 }
 
 .feedback-form {
